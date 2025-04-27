@@ -1,0 +1,99 @@
+.heading{
+    text-align: center;
+    color: rgb(201, 178, 150);
+}
+body{
+    background-color: black;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.search{
+    width: 500px;
+    height: 40px;
+    background-color: #bda0a0;
+    transition: all 0.3s ease;
+}
+.button input{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #22476f;
+   
+
+   /* width: 1000px; */
+}
+.button input:hover{
+    background-color: #a0bcdb;
+    transform: scale(1.05);
+}
+.search:hover{
+ border-color: rgb(201, 178, 150);;
+}
+#error-message {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#profile{
+       display: flex;
+       justify-content: center;
+      
+       margin-top: 30px;;
+}
+#profile-name{
+    color: aliceblue;
+
+}
+#profile-bio{
+    color:#a0bcdb;
+}
+#name-and-bio{
+    margin-right: 80px;
+    /* gap: 20px; */
+}
+#location{
+    color: #a0bcdb;
+}
+#followers{
+    color: #a0bcdb;
+}
+#public-repo{
+    color: #a0bcdb;
+}
+#github-profile{
+    color: #a0bcdb;
+}
+#github-profile:hover{
+    transform: scale(1.05);
+}
+#public-repo-count{
+    color: #a0bcdb;
+}
+.repo-link{
+    color: #a0bcdb;
+    text-decoration: none;
+    pointer-events: none;
+}
+.repo-link:hover{
+    color:#22476f;
+    text-decoration: underline;
+    pointer-events: auto;
+
+}
+li:hover .repo-link {
+    color: blue;
+    text-decoration: underline;
+    pointer-events: auto;
+  }
+  #avatar-url:hover{
+    transform: scale(1.25);
+
+  }
